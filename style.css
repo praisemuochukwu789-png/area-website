@@ -734,6 +734,13 @@ footer a:hover {
         width: clamp(300px, 100%, 590px);
         height: 500px;
     }
+    #step-container {
+        display: flex;
+        flex-direction: column; 
+    }
+    .step {    
+        width: 100%;           
+    }
     #how-to-container div {
         display: flex;
         flex-direction: column;
