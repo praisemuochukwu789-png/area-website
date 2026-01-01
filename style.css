@@ -653,7 +653,7 @@ footer a:hover {
     nav{
         display: none;
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 0%;
         background-color: white;
     }
@@ -669,7 +669,7 @@ footer a:hover {
         flex-direction: column;
     }
     nav li {
-        width: 71vw;
+        width: 74vw;
     }
     #header-btn{
         display: none !important;
