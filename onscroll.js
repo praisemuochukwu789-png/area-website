@@ -23,6 +23,7 @@ window.addEventListener("scroll", function () {
             nav.style.marginTop = "10px";
             close_btn.style.display = "none";
             menu_bar.style.display = "block";
+            overlay.classList.remove("overlay-active");
         }
     } else {
         nav.style.marginTop = "";
