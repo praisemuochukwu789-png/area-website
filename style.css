@@ -151,8 +151,8 @@ header button:hover {
     height: 362px;
     border-radius: 30px;
     background-color: #8e9c78;
-} 
-.hero-image{
+}
+.hero-image {
     position: absolute;
     bottom: 0%;
     left: 50%;
@@ -214,7 +214,7 @@ header button:hover {
 }
 #benefits-card-container {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     gap: 20px;
 }
 #benefits-card-container h2 {
@@ -642,7 +642,7 @@ footer a:hover {
         height: auto;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     header {
         padding: 10px 20px;
         border-radius: 0 0 20px 20px;
@@ -650,7 +650,7 @@ footer a:hover {
         border-radius: 30px;
         background-color: white;
     }
-    nav{
+    nav {
         display: none;
         position: absolute;
         top: 80px;
@@ -660,7 +660,7 @@ footer a:hover {
     /* nav.nav-active{
         display: block;
     } */
-    #nav-ul.nav-active{
+    #nav-ul.nav-active {
         display: block;
     }
     nav ul {
@@ -671,7 +671,7 @@ footer a:hover {
     nav li {
         width: 74vw;
     }
-    #header-btn{
+    #header-btn {
         display: none !important;
     }
     #menu_bar {
@@ -705,7 +705,7 @@ footer a:hover {
     }
     #benefits-card-container {
         display: flex;
-        justify-content: space-evenly; 
+        justify-content: space-evenly;
         flex-direction: column;
         gap: 20px;
     }
@@ -730,16 +730,16 @@ footer a:hover {
     .card {
         width: 290px;
     }
-    #rock-image-section img  {
+    #rock-image-section img {
         width: clamp(300px, 100%, 590px);
         height: 500px;
     }
     #step-container {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
     }
-    .step {    
-        width: 100%;           
+    .step {
+        width: 100%;
     }
     #how-to-container div {
         display: flex;
@@ -749,7 +749,7 @@ footer a:hover {
         gap: 30px;
     }
     #how-to-container h1 {
-        font-size: 4.4rem; 
+        font-size: 4.4rem;
     }
     #step-container {
         flex-direction: column;
@@ -807,5 +807,15 @@ footer a:hover {
     }
     .site-footer {
         padding: 60px 20px 40px 20px;
+    }
+}
+@media (max-width: 400px) {
+    nav li {
+        width: 71vw;
+    }
+}
+@media (max-width: 400px) {
+    nav li {
+        width: 69vw;
     }
 }
