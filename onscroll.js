@@ -45,7 +45,6 @@ menu_bar.addEventListener("click", () => {
     overlay.classList.toggle("overlay-active");
     // nav.classList.toggle("nav-active");
     nav.style.display = "block";
-    header.style.boxShadow = "none";
     close_btn.style.display = "block";
     menu_bar.style.display = "none";
 });
