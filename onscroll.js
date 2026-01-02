@@ -39,6 +39,7 @@ function closeMenu() {
     nav.style.display = "none";
     close_btn.style.display = "none";
     menu_bar.style.display = "block";
+    header.style.boxShadow = "0px 4px 10px rgba(0,0,0,0.1)";
 }
 const menu_bar = document.getElementById("menu_bar");
 menu_bar.addEventListener("click", () => {
