@@ -5,6 +5,9 @@ const nav = document.getElementById("nav");
 const overlay = document.getElementById("menu-overlay");
 const close_btn = document.getElementById("close_icon");
 window.addEventListener("scroll", function () {
+    if (window.innerWidth < 800) {
+        closeMenu();
+    }
     // Set threshold (e.g., 50px)
     const ismobile = window.innerWidth < 800;
     const isdesktop = window.innerWidth > 800;
@@ -23,7 +26,6 @@ window.addEventListener("scroll", function () {
             nav.style.marginTop = "10px";
             close_btn.style.display = "none";
             menu_bar.style.display = "block";
-            overlay.classList.remove("overlay-active");
         }
     } else {
         nav.style.marginTop = "";
@@ -33,7 +35,6 @@ window.addEventListener("scroll", function () {
     }
 });
 function closeMenu() {
-    // nav.classList.remove("nav-active");
     overlay.classList.remove("overlay-active");
     nav.style.display = "none";
     close_btn.style.display = "none";
